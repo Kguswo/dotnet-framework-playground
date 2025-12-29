@@ -29,6 +29,7 @@ namespace ConsoleApp2 // 네임스페이스 선언
             Variable.Run(); // Variable 클래스의 run 메서드 호출
             Operator.Run(); // Operator 클래스의 run 메서드 호출
             Arrays.Run();    // Array 클래스의 run 메서드 호출
+            ConditionalStatement.Run(); // ConditionalStatement 클래스의 run 메서드 호출
 
         }
     }
