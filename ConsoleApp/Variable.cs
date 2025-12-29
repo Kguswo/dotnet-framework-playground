@@ -4,7 +4,7 @@ namespace ConsoleApp2
 {
     internal class Variable
     {
-        public static void run()
+        public static void Run()
         {
             System.Console.WriteLine("");
             System.Console.WriteLine("ch2. 변수");

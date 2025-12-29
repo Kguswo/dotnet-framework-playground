@@ -4,7 +4,7 @@ namespace ConsoleApp2
 {
     internal class Operator
     {
-        public static void run()
+        public static void Run()
         {
             Console.WriteLine("");
             Console.WriteLine("ch3. 연산자");

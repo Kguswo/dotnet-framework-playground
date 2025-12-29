@@ -4,7 +4,7 @@ namespace ConsoleApp
 {
     internal class Arrays
     {
-        public static void run()
+        public static void Run()
         {
             Console.WriteLine("ch4. 배열");
             // 배열(Array): 동일한 데이터 타입의 여러 값을 하나의 변수에 저장할 수 있는 자료구조

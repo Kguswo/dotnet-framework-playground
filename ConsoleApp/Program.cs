@@ -11,7 +11,7 @@ namespace ConsoleApp2 // 네임스페이스 선언
     {
         public string Model { get; set; } // 자동차 모델 속성
         public int Year { get; set; }     // 자동차 연식 속성
-        public void move() // 자동차 이동 메서드
+        public void Move() // 자동차 이동 메서드
         {
             Console.WriteLine("자동차 이동.");
         }
@@ -26,9 +26,9 @@ namespace ConsoleApp2 // 네임스페이스 선언
             // System 네임스페이스의 Console 클래스의 WriteLine 메서드를 호출하여 "Hello, World!" 문자열을 콘솔에 출력
             Console.WriteLine("Hello, World!");
 
-            Variable.run(); // Variable 클래스의 run 메서드 호출
-            Operator.run(); // Operator 클래스의 run 메서드 호출
-            Arrays.run();    // Array 클래스의 run 메서드 호출
+            Variable.Run(); // Variable 클래스의 run 메서드 호출
+            Operator.Run(); // Operator 클래스의 run 메서드 호출
+            Arrays.Run();    // Array 클래스의 run 메서드 호출
 
         }
     }
