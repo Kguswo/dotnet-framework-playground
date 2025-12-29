@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays.cs" />
+    <Compile Include="LoopStatement.cs" />
     <Compile Include="ConditionalStatement.cs" />
     <Compile Include="Operator.cs" />
     <Compile Include="Program.cs" />
