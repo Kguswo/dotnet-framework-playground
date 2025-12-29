@@ -26,6 +26,8 @@ namespace ConsoleApp2 // 네임스페이스 선언
             Console.WriteLine("Hello, World!");
 
             Variable.run(); // Variable 클래스의 run 메서드 호출
+            Operator.run(); // Operator 클래스의 run 메서드 호출
+
         }
     }
 }
