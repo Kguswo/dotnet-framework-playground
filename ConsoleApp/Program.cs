@@ -1,4 +1,5 @@
-﻿using System; // System 네임스페이스 사용 
+﻿using ConsoleApp;
+using System; // System 네임스페이스 사용 
 
 namespace ConsoleApp2 // 네임스페이스 선언
                       // 공간 선언을 통해 중복되는 이름을 피할 수 있다. ex) ConsoleApp1.Apple 클래스 와 ConsoleApp2.Apple 클래스
@@ -27,6 +28,7 @@ namespace ConsoleApp2 // 네임스페이스 선언
 
             Variable.run(); // Variable 클래스의 run 메서드 호출
             Operator.run(); // Operator 클래스의 run 메서드 호출
+            Arrays.run();    // Array 클래스의 run 메서드 호출
 
         }
     }
