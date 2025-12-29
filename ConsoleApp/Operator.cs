@@ -7,7 +7,7 @@ namespace ConsoleApp2
         public static void Run()
         {
             Console.WriteLine("");
-            Console.WriteLine("ch3. 연산자");
+            Console.WriteLine("ch.3 연산자");
             int a = 10;
             int b = 3;
             Console.WriteLine("a + b = " + (a + b)); // 덧셈

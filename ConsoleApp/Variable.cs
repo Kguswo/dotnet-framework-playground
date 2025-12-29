@@ -7,7 +7,7 @@ namespace ConsoleApp2
         public static void Run()
         {
             System.Console.WriteLine("");
-            System.Console.WriteLine("ch2. 변수");
+            System.Console.WriteLine("ch.2 변수");
             // 자료형
             int num = 0;
             long bigNum = 500000000000000000L;

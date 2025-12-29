@@ -84,6 +84,7 @@ namespace ConsoleApp
             }// break실행으로 여기서부터 다시 시작.
             //  if문으로 사용해도 별 차이 없음.
             //  다만 조건을 추가한다 해도 동일한 용도 및 타입으로 사용디ㅗㄹ 가능성이 높을 경우, switch문으로 자주 사용.
+            Console.WriteLine();
         }
     }
 }
