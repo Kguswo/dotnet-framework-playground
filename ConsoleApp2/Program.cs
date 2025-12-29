@@ -1,8 +1,4 @@
 ﻿using System; // System 네임스페이스 사용 
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp2 // 네임스페이스 선언
                       // 공간 선언을 통해 중복되는 이름을 피할 수 있다. ex) ConsoleApp1.Apple 클래스 와 ConsoleApp2.Apple 클래스
@@ -28,6 +24,8 @@ namespace ConsoleApp2 // 네임스페이스 선언
         {
             // System 네임스페이스의 Console 클래스의 WriteLine 메서드를 호출하여 "Hello, World!" 문자열을 콘솔에 출력
             Console.WriteLine("Hello, World!");
+
+            Variable.run(); // Variable 클래스의 run 메서드 호출
         }
     }
 }
