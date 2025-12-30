@@ -32,6 +32,8 @@ namespace ConsoleApp2 // 네임스페이스 선언
             ConditionalStatement.Run(); // ConditionalStatement 클래스의 run 메서드 호출
             LoopStatement.Run(); // LoopStatement 클래스의 run 메서드 호출
             ExceptionHandling.Run(); // ExceptionHandling 클래스의 run 메서드 호출
+            Function.myFunction(); // Function 클래스의 myFunction 메서드 호출
+            Function.myAddition(1, 2); // Function 클래스의 myAddition 메서드 호출
         }
     }
 }
