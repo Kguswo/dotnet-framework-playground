@@ -31,9 +31,22 @@ namespace ConsoleApp2 // 네임스페이스 선언
             Arrays.Run();    // Array 클래스의 run 메서드 호출
             ConditionalStatement.Run(); // ConditionalStatement 클래스의 run 메서드 호출
             LoopStatement.Run(); // LoopStatement 클래스의 run 메서드 호출
-            ExceptionHandling.Run(); // ExceptionHandling 클래스의 run 메서드 호출
+            //ExceptionHandling.Run(); // ExceptionHandling 클래스의 run 메서드 호출
             Function.myFunction(); // Function 클래스의 myFunction 메서드 호출
-            Function.myAddition(1, 2); // Function 클래스의 myAddition 메서드 호출
+            Function.myAddition(100, 200); // Function 클래스의 myAddition 메서드 호출
+
+            ChildClass childClass = new ChildClass(); // ChildClass 객체 생성
+            childClass.run(); // ChildClass의 run 메서드 호출
+            Console.WriteLine(childClass.getA()); // ChildClass의 getA 메서드 호출 후 출력
+
+            Animal animal = new Animal(); // Animal 객체 생성
+            // 코드의 재사용성 증가.
+            // 객체만 변경하면 기존 시스템에서 약간의 수정 또는 수정을 전혀 안해도 될 수 있음.
+            animal.Bark(); // Animal의 Bark 메서드 호출
+            animal = new Cat(); // Cat 객체로 변경
+            animal.Bark(); // Cat의 Bark 메서드 호출
+            animal = new Dog(); // Dog 객체로 변경
+            animal.Bark(); // Dog의 Bark 메서드 호출
         }
     }
 }
